@@ -26,10 +26,9 @@ class Solution1:
         else:
             return False
 
-#Time Complexity:
-#   Set : O(n) : AvgC = O(n), BestC = O(1)
-#Space Complexity:
-#   O(n)
+# TC: Set : O(n) : AvgC = O(n), BestC = O(1)
+
+# SC: O(n)
 
 
 # Alternate solution
@@ -41,12 +40,14 @@ class Solution2:
                 return True
         return False
 
-#Time Complexity:
-#   Sorting : O(n log n)
-#   Loop : O(n)
-#   Final: O(n log n)
-#Space Complexity:
-#   Array : O(n)
-#   Fin  : 0(n)
+# TC:
+# Sorting : O(n log n)
+# Loop : O(n)
+# Final: O(n log n)
+
+
+# SC:
+# Array : O(n)
+# Fin  : 0(n)
 
 
